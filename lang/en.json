@@ -1,0 +1,22 @@
+{
+  "TESTSYSTEM.AbilityStr": "Strength",
+  "TESTSYSTEM.AbilityCon": "Constitution",
+  "TESTSYSTEM.AbilityDex": "Dexterity",
+  "TESTSYSTEM.AbilityInt": "Intelligence",
+  "TESTSYSTEM.AbilityWis": "Wisdom",
+  "TESTSYSTEM.AbilityCha": "Charisma",
+
+  "TESTSYSTEM.AbilityStrAbbr": "str",
+  "TESTSYSTEM.AbilityConAbbr": "con",
+  "TESTSYSTEM.AbilityDexAbbr": "dex",
+  "TESTSYSTEM.AbilityIntAbbr": "int",
+  "TESTSYSTEM.AbilityWisAbbr": "wis",
+  "TESTSYSTEM.AbilityChaAbbr": "cha",
+
+  "TESTSYSTEM.EffectCreate": "Create Effect",
+  "TESTSYSTEM.EffectToggle": "Toggle Effect",
+  "TESTSYSTEM.EffectEdit": "Edit Effect",
+  "TESTSYSTEM.EffectDelete": "Delete Effect",
+
+  "TESTSYSTEM.Add": "Add"
+}
