@@ -218,23 +218,15 @@ export class BoilerplateActorSheet extends ActorSheet {
          // console.log(skills);
           const actor = this.actor;
           for (let i =0; i < skills.length; i++){
-            //let skillData = game.items.get(skills[i]);//uses the item name not uuid
             let skillData = await fromUuid(skills[i]);
-          //  console.log("before function",skillData.system.percentage);
             const skillDataToChange = skillData.toObject(); 
-            //let skillDataMod = await occBonuses(skillDataToChange,itemData.name);
-            //console.log("after function",skillDataMod.system.percentage);
-           // console.log(skillDataMod);
             actor.createEmbeddedDocuments("Item",[skillDataToChange]);
           }
           actor.update({system:  {skills: {value: itemData.name }}});
           actor.update({system: {skills: {uuid: item.uuid}}});
-          //actor.setFlag('rifts','classChanged', 'true');
-          //occSkillsBasePercent(actor);
         break;
        }
         return super._onDropItem(event, data);
-
     }
 
   /**
